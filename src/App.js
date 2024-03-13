@@ -3,7 +3,6 @@ import './assets/boxicons-2.0.7/css/boxicons.min.css';
 import './App.scss';
 
 import { BrowserRouter, Route } from 'react-router-dom';
-import { Analytics } from "@vercel/analytics/react"
 
 
 import Header from './components/header/Header';
@@ -21,7 +20,6 @@ function App() {
                     <Footer/>
                 </>
             )}/>
-            <Analytics />
         </BrowserRouter>
     );
 }
